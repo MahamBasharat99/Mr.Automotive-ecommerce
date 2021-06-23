@@ -1,0 +1,427 @@
+.cont {
+    margin: 35px 0;
+    width: 100%;
+    /* min-height: 70vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wt_m {
+    color: rgba(0, 0, 0, 0.555);
+}
+
+.cont i {
+    font-size: 25px;
+    color: orange;
+    margin: 25px 0;
+}
+
+.invoice_sec {
+    min-width: 100%;
+    background: #fefefe;
+    border: 1px solid rgba(0, 0, 0, 0.349);
+    box-shadow: 2px 5px 15px #00000048;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+#invoice_number {
+    font-size: 15px;
+}
+
+.inv_top_sec {
+    background: #000;
+    flex-wrap: wrap;
+    border-bottom: 5px solid orange;
+    border-radius: 5px;
+}
+
+.inv_bottom_sec {
+    /* min-height: 20vh; */
+    border-bottom: 2px solid rgba(0, 0, 0, 0.274);
+}
+
+.inv_top_sec,
+.inv_bottom_sec {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inv_logo {
+    align-items: flex-start;
+}
+
+.inv_logo img {
+    align-items: flex-start;
+    padding-left: 0;
+    width: 70px;
+}
+
+.inv_data {
+    align-items: flex-end;
+    color: #ffff;
+}
+
+.inv_logo,
+.inv_data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    /* min-height: 10vh; */
+    padding: 10px 20px;
+}
+
+.inv_clint_Info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px 20px;
+    line-height: 25px;
+}
+
+.inv_clint_Info p {
+    width: 100%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.inv_payment_sec {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 10px 20px;
+    line-height: 25px;
+}
+
+.inv_payment_sec p {
+    text-align: right;
+    width: 100%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.cl_i {
+    width: 100%;
+    text-align: justify;
+    margin-top: 15px;
+    padding: 10px 20px;
+}
+
+.inv_p {
+    min-height: auto;
+    margin: 15px 0;
+    width: 100%;
+    padding: 10px 20px;
+    pointer-events: none;
+}
+
+.inv_bottom_sec p span {
+    color: rgba(0, 0, 0, 0.76);
+}
+
+.inv_head {
+    width: 100%;
+    box-shadow: none;
+    border: 1px solid rgba(0, 0, 0, 0.253);
+    background: #000;
+    color: #fff;
+    padding: 10px 30px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.inv_head h2 {
+    width: 43%;
+    font-size: 18px;
+}
+
+.inv_head h4 {
+    width: 16%;
+    text-align: center;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.inv_p .cart_details {
+    box-shadow: none;
+    border: 1px solid rgba(0, 0, 0, 0.253);
+}
+
+.down_inv,
+.thx_for_shop {
+    margin: 25px auto;
+    width: 100%;
+    min-height: 50px;
+    background: rgb(12, 168, 12);
+    color: #fff;
+    /* padding: 5px 20px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+
+.down_inv {
+    width: 100%;
+    background: #f6f6f6;
+    color: #000;
+    padding: 10px 30px;
+}
+
+.down_inv .fa-download {
+    color: #fff;
+    padding: 0;
+    margin: 0 5px;
+}
+
+.thx_for_shop .mybtn {
+    font-size: 14px;
+    padding: 10px 10px;
+    border-radius: 6px;
+}
+
+.reviewDetailsItemList:first-child {
+    min-width: 40%
+}
+
+@media only screen and (max-width:570px) {
+    .wt_m {
+        font-size: 14px;
+        padding: 5px 15px;
+        text-align: center;
+    }
+    .cont i {
+        font-size: 14px;
+        margin: 10px 0;
+    }
+    .invoice_sec {
+        width: 88%;
+    }
+    .inv_logo {
+        padding: 0 15px !important;
+    }
+    .inv_logo h1 {
+        font-size: 20px;
+    }
+    .inv_data {
+        padding: 0 15px !important;
+    }
+    .inv_data h3 {
+        font-size: 15px
+    }
+    #p_date {
+        font-size: 12px
+    }
+    .inv_logo,
+    .inv_data {
+        /* min-height: 8vh; */
+        padding: 10px 15px !important;
+    }
+    .inv_clint_Info {
+        padding: 10px 13px;
+        line-height: 22px;
+    }
+    .inv_clint_Info p {
+        font-size: 14px
+    }
+    .inv_payment_sec {
+        padding: 10px 13px;
+        line-height: 22px;
+    }
+    .inv_payment_sec p {
+        font-size: 14px
+    }
+    .cl_i {
+        padding: 10px 13px;
+        font-size: 16px;
+    }
+    .inv_head {
+        justify-content: space-evenly;
+        padding: 10px !important;
+    }
+    .inv_head h2 {
+        width: 43%;
+    }
+    .inv_head h4 {
+        width: 16%;
+        text-align: center;
+        font-weight: 100 !important;
+    }
+    .down_inv,
+    .thx_for_shop {
+        margin: 20px auto;
+        width: 95%;
+        min-height: 45px;
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+    .thx_for_shop p {
+        font-size: 14px;
+    }
+    .thx_for_shop .mybtn {
+        font-size: 12px;
+        padding: 10px 7px;
+        border-radius: 2px;
+    }
+    .down_inv {
+        width: 90%;
+        padding: 10px 20px;
+    }
+    .down_inv h2 {
+        font-size: 18px;
+    }
+    .down_inv .fa-download {
+        color: #fff;
+        padding: 0;
+        margin: 0 5px;
+        font-size: 14px;
+    }
+    .inv_final_p {
+        width: 100%;
+    }
+    .inv_final_p .final_p_box {
+        width: 100%;
+        padding: 10px 0;
+        margin: 0px 0 !important;
+    }
+    .inv_final_p .final_p_box span {
+        padding: 10px 7px;
+        font-weight: 200;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .wt_m {
+        font-size: 12px;
+        font-weight: 200;
+    }
+    .inv_top_sec,
+    .inv_bottom_sec {
+        flex-wrap: wrap;
+    }
+    .inv_payment_sec p {
+        width: 100%;
+        text-align: left
+    }
+    .inv_payment_sec {
+        padding: 13px;
+        width: 100%;
+    }
+    .inv_clint_Info {
+        padding: 0 13px;
+        width: 100%;
+    }
+    .inv_logo h1 {
+        font-size: 18px;
+    }
+    .inv_logo {
+        width: 40%;
+        padding: 0 0 0 15px !important;
+    }
+    .inv_data {
+        width: 60%;
+        padding: 0 15px 0 0 !important;
+    }
+    .inv_data h3 {
+        font-size: 13px;
+        font-weight: 200;
+    }
+    #p_date {
+        font-size: 12px
+    }
+    .inv_clint_Info {
+        padding: 10px 13px;
+        line-height: 22px;
+    }
+    .inv_clint_Info p {
+        font-size: 14px
+    }
+    .inv_payment_sec {
+        padding: 10px 13px;
+        line-height: 22px;
+    }
+    .inv_payment_sec p {
+        font-size: 14px
+    }
+    .cl_i {
+        padding: 10px 13px;
+        font-size: 16px;
+    }
+    .inv_head {
+        padding: 10px !important;
+    }
+    .inv_head h2 {
+        width: 33%;
+    }
+    .inv_head h4 {
+        width: 22.33%;
+    }
+    .down_inv,
+    .thx_for_shop {
+        width: 90%;
+        flex-wrap: wrap;
+        padding: 10px 13px;
+    }
+    .thx_for_shop p {
+        width: 100%;
+        padding: 10px 0;
+    }
+    .down_inv h2 {
+        font-size: 16px;
+        padding: 5px 0;
+    }
+    .inv_final_p .final_p_box {
+        width: 100%;
+        padding: 10px 0;
+        margin: 0px 0 !important;
+    }
+    .inv_final_p .final_p_box span {
+        padding: 10px 7px;
+        font-weight: 200;
+    }
+    .inv_p {
+        padding: 10px 7px;
+    }
+    .inv_final_p .final_p_box span {
+        padding: 10px 2px;
+        text-align: center;
+    }
+    @media only screen and (max-width:320px) {
+        .inv_logo {
+            width: 100%;
+            padding: 0px 15px !important;
+            justify-content: center;
+            align-items: flex-start;
+        }
+        .inv_logo h3 {
+            padding: 0 !important;
+        }
+        .inv_data {
+            width: 100%;
+            padding: 0px 15px !important;
+            justify-content: center;
+            align-items: flex-end;
+        }
+        .inv_head {
+            padding: 10px !important;
+        }
+        .inv_head h2 {
+            width: 31%;
+        }
+        .inv_head h4 {
+            width: 23%;
+        }
+    }
+}

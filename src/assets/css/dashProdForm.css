@@ -1,0 +1,337 @@
+.post_container {
+    width: 100%;
+    margin: 50px auto;
+    border: #002f34 2px solid;
+    padding: 25px 0;
+    overflow: hidden;
+    background-color: #fff;
+    border: 1px solid rgba(0, 47, 52, .2);
+    border-radius: 4px;
+}
+
+.post_top {
+    width: 100%;
+    padding: 15px 35px;
+    text-align: center;
+    min-height: 90px;
+    border-bottom: 1px solid rgba(0, 47, 52, .2);
+}
+
+.post_top h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #002f34;
+}
+
+.post_body {
+    width: 100%;
+}
+
+.post_detailBox {
+    width: 100%;
+    padding: 15px 15px 0 35px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.post_detailBox h3 {
+    color: #002f34;
+}
+
+.postsecDivider {
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(0, 47, 52, .2);
+}
+
+.post_detailBox span {
+    color: rgba(0, 47, 52, .64);
+    font-size: 12px;
+    margin-top: 2px;
+}
+
+.post_detailBox label {
+    color: #002f34;
+    display: block;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.post_detailBox>input[type=text],
+.post_detailBox>input[type=number],
+.post_detailBox>select,
+.post_detailBox>.data-list-for-brand {
+    appearance: none;
+    background: none;
+    border: none;
+    color: #002f34;
+    display: block;
+    font-size: 16px;
+    height: 48px;
+    box-sizing: border-box;
+    outline: none;
+    padding-left: 12px;
+    padding-right: 12px;
+    box-shadow: inset 0 0 0 1px #00a49f;
+    border-radius: 4px;
+    margin-top: 3px;
+    max-width: 95% !important;
+    line-height: 48px;
+}
+
+.post_detailBox>textarea {
+    box-shadow: inset 0 0 0 1px #00a49f;
+    border-radius: 4px;
+    margin-top: 3px;
+    appearance: none;
+    background: none;
+    border: none;
+    color: #002f34;
+    display: block;
+    font-size: 16px;
+    height: 100px;
+    padding: 15px 12px;
+    box-sizing: border-box;
+    outline: none;
+    margin-top: 3px;
+    width: 95% !important;
+}
+
+.data-list-for-brand {
+    appearance: none;
+    background: none;
+    border: none;
+    color: #002f34;
+    display: block;
+    font-size: 16px;
+    height: 48px;
+    box-sizing: border-box;
+    outline: none;
+    padding-left: 12px;
+    padding-right: 12px;
+    box-shadow: inset 0 0 0 1px #00a49f;
+    border-radius: 4px;
+    margin-top: 3px;
+    line-height: 48px;
+    width: 95% !important;
+}
+
+.prodImgwrapper {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.SelectprodImgWrapper {
+    width: 104px;
+    height: 104px;
+    position: relative;
+    vertical-align: top;
+    margin: 0 6px 6px 0;
+}
+
+.imgSelbtn {
+    border: 2px solid #002f34;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    color: #002f34;
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+    z-index: 111;
+    padding: 3px;
+    outline: #00a49f;
+}
+
+.formProdimg {
+    width: 100px;
+    height: 100px;
+    object-fit: fill;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border: none;
+    outline: none;
+}
+
+.removeimg {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    border: none;
+    z-index: 1111;
+    outline: none;
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+}
+
+.postBtn,
+.postBtnnot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: max-content;
+    min-width: 115px;
+    /* max-width: 140px; */
+    color: #fff;
+    background-color: #002f34;
+    border-radius: 4px;
+    border: 5px solid #002f34;
+    padding: 0 7px;
+    font-size: 16px;
+    height: 48px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+#postBtnnot {
+    background-color: #d8dfe0;
+    color: #7f9799;
+    border-color: #d8dfe0;
+    cursor: not-allowed;
+    user-select: none;
+    pointer-events: none;
+}
+
+.successmsgbox {
+    position: fixed;
+    top: 100px;
+    right: 25px;
+    min-width: 150px;
+    min-height: 35px;
+    padding: 7px 10px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 13px;
+    text-align: left;
+    background-color: #00a49f;
+    border-radius: 4px;
+    opacity: .9;
+    display: flex;
+    align-items: center;
+}
+
+.sidebarTabs .MuiTab-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-weight: 900;
+    text-align: left;
+    width: 300px !important;
+}
+
+.sidebarTabs .MuiTab-wrapper svg {
+    min-width: 30px !important;
+    margin-right: 15px;
+}
+
+
+/* Chrome, Safari, Edge, Opera */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+/* Firefox */
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.dashboarTabsHeading {
+    padding: 15px 0;
+    font-size: 25px;
+    margin: 15px auto;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: left;
+    /* text-shadow: 2px 2px 0px rgba(199, 185, 255, 1); */
+    font-weight: 900;
+}
+
+.dashboardHomeCards {
+    /* border: 2px solid red; */
+    width: 350px;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+#uploadingloaderwrapper {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(136, 136, 136, 0.397);
+    background: rgba(177, 177, 177, 0.493);
+    z-index: 99999;
+}
+
+#uploadingloaderwrapper h1 {
+    font-size: 28px;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    color: #444cc3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.uploadingProgress {
+    position: relative;
+    color: rgb(68, 76, 195);
+    font-weight: 700;
+}
+
+.loader {
+    border: 5px solid #f3f3f3;
+    border-top: 5px solid #444cc3;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    animation: spin 1s linear infinite;
+}
+
+.uploadingperc {
+    position: absolute;
+    top: 37%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
+
+.uploadinghead {
+    text-align: center;
+    font-weight: 700;
+    margin-top: 10px;
+    padding: 10px;
+    color: rgb(68, 76, 195);
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.UserupdateFormAdmin {
+    padding: 20px;
+}
